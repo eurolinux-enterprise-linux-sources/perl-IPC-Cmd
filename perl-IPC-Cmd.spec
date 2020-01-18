@@ -2,7 +2,7 @@ Name:           perl-IPC-Cmd
 # Epoch to compete with perl.spec
 Epoch:          1
 Version:        0.80
-Release:        3%{?dist}
+Release:        4%{?dist}
 Summary:        Finding and running system commands made easy
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -63,6 +63,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1:0.80-4
+- Mass rebuild 2013-12-27
+
 * Mon May 20 2013 Petr Pisar <ppisar@redhat.com> - 1:0.80-3
 - Remove unneeded dependency on Config
 
